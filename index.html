@@ -216,7 +216,7 @@
             <option value="ensemble" selected>Mô hình Tối ưu: 5 Lớp (Bayes + Chu Kỳ + Cầu Vị Trí + Pascal + Bạc Nhớ)</option>
             <option value="balanced">Mô hình: Hội Tụ Bayes & Điểm Rơi Chu Kỳ</option>
             <option value="frequency">Mô hình: Ưu Tiên Tần Suất & Nhịp Đều</option>
-            <option value="reversion">Mô hình: Hồi Quy Bắt Điểm Rơi Lô Gan Ngắn</option>
+            <option value="reversion">Mô hình: Hồi Quy Bắt Điểm Rơi Lê Gan Ngắn</option>
           </select>
 
           <button id="btnGeneratePrediction" class="px-5 py-3 rounded-xl bg-gradient-to-r from-rose-600 via-red-600 to-amber-500 hover:from-rose-500 hover:to-amber-400 text-white font-extrabold text-sm shadow-lg shadow-rose-600/30 flex items-center gap-2 transition transform active:scale-95 cursor-pointer">
@@ -292,7 +292,7 @@
             <div class="my-3 flex items-baseline gap-3">
               <div id="cangMainNumber" class="text-4xl sm:text-5xl font-extrabold font-mono-num text-purple-300 tracking-wider">---</div>
               <div class="text-xs text-slate-400">
-                <div>3 Càng Lô: <span id="cangLotoNumber" class="font-mono-num font-bold text-white">---</span></div>
+                <div>3 Càng Lê: <span id="cangLotoNumber" class="font-mono-num font-bold text-white">---</span></div>
                 <div class="mt-0.5">Độ tin cậy: <span id="cangProbText" class="font-mono-num font-bold text-purple-300">--%</span></div>
               </div>
             </div>
@@ -485,11 +485,11 @@
 
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4 text-xs">
             <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
-              <div class="text-slate-400 font-medium">Lô Về ≥ 2 Nháy Trong Kỳ:</div>
+              <div class="text-slate-400 font-medium">Lê Về ≥ 2 Nháy Trong Kỳ:</div>
               <div id="dayMultiHitBadges" class="mt-1.5 flex flex-wrap gap-1.5 font-mono-num font-bold"></div>
             </div>
             <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
-              <div class="text-slate-400 font-medium">Lô Kép Xuất Hiện:</div>
+              <div class="text-slate-400 font-medium">Lê Kép Xuất Hiện:</div>
               <div id="dayKepBadges" class="mt-1.5 flex flex-wrap gap-1.5 font-mono-num font-bold"></div>
             </div>
             <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
@@ -515,7 +515,7 @@
                 <thead>
                   <tr class="bg-slate-900/90 text-slate-400 border-b border-slate-800">
                     <th class="py-2 px-3 w-14 text-center font-bold">Đầu</th>
-                    <th class="py-2 px-3 font-bold">Lô Tô Xuất Hiện (Đuôi)</th>
+                    <th class="py-2 px-3 font-bold">Lê Tô Xuất Hiện (Đuôi)</th>
                     <th class="py-2 px-3 w-16 text-right font-bold">Tổng</th>
                   </tr>
                 </thead>
@@ -575,7 +575,7 @@
         <div class="glass-card rounded-3xl p-5 border border-slate-800">
           <div class="flex items-center justify-between mb-3">
             <div>
-              <h3 class="text-base font-bold text-white">Phân Bố Tần Suất Đầu Lô (0–9) & Đuôi Lô (0–9)</h3>
+              <h3 class="text-base font-bold text-white">Phân Bố Tần Suất Đầu Lê (0–9) & Đuôi Lê (0–9)</h3>
               <p class="text-xs text-slate-400">Đánh giá độ lệch chuẩn giữa các chạm đầu và đuôi</p>
             </div>
           </div>
@@ -588,7 +588,7 @@
           <div class="flex items-center justify-between mb-3">
             <div>
               <h3 class="text-base font-bold text-white">Phân Bố Chữ Số Hàng Trăm (Càng 0–9) & Tổng Đề</h3>
-              <p class="text-xs text-slate-400">Cơ sở xác suất để ghép 3 Càng Đề và 3 Càng Lô</p>
+              <p class="text-xs text-slate-400">Cơ sở xác suất để ghép 3 Càng Đề và 3 Càng Lê</p>
             </div>
           </div>
           <div class="relative h-72 w-full">
